@@ -40,7 +40,7 @@ undo_expand_region 递减选择功能
 设置键盘快捷键。打开"键绑定"并添加以下代码：
 {
 "key"："ctrl+w" ，"command"："expand_region" ， "when"："editorTextFocus"
-} ，
+},
 {
 "key"："ctrl+shift+w" ，"command"："undo_expand_region" ， "when"："editorTextFocus && editorHasSelection"
 }
