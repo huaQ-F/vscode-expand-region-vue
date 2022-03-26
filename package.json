@@ -1,0 +1,53 @@
+{
+  "name": "expand-region-add-vue",
+  "displayName": "expand-region-add-vue",
+  "description": "expand selection , It works similar to ExpandRegion for Emacs and “Structural Selection” (Control-W) in the JetBrains IDE's (i.e. IntelliJ IDEA).",
+  "version": "0.1.27",
+  "publisher": "letrieu",
+  "icon": "icon.png",
+  "bugs": {
+    "url": "https://github.com/huaQ-F/vscode-expand-region-vue/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huaQ-F/vscode-expand-region-vue.git"
+  },
+  "homepage": "https://github.com/huaQ-F/vscode-expand-region-vue/blob/main/README.md",
+  "engines": {
+    "vscode": "^1.1.37"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:expand_region_vue"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "expand_region_vue",
+        "title": "Expand Region vue"
+      },
+      {
+        "command": "undo_expand_region_vue",
+        "title": "Undo Expand Region vue"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "mocha --ui tdd --recursive \"out/**/*.test.js\"",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.40",
+    "eslint": "^3.6.0",
+    "mocha": "^3.5.0",
+    "typescript": "^3.5.1",
+    "vscode": "^1.1.37"
+  }
+}
