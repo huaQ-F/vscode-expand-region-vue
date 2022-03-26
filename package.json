@@ -1,9 +1,9 @@
 {
-  "name": "expand-region-add-vue",
-  "displayName": "expand-region-add-vue",
+  "name": "expand-region-vue",
+  "displayName": "expand-region-vue",
   "description": "expand selection , It works similar to ExpandRegion for Emacs and “Structural Selection” (Control-W) in the JetBrains IDE's (i.e. IntelliJ IDEA).",
   "version": "0.1.27",
-  "publisher": "letrieu",
+  "publisher": "huaQ-F",
   "icon": "icon.png",
   "bugs": {
     "url": "https://github.com/huaQ-F/vscode-expand-region-vue/issues"
