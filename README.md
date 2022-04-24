@@ -55,3 +55,14 @@ npm test:watch（运行 mocha 进行测试）
 支持 vue、自动将 html/vue 文件下 script 标签里转 js 扩展  
 0.0.1  
 首次发布  
+
+
+## 三个修改的插件
+- 扩展选区插件  
+[expand-region-vue](https://marketplace.visualstudio.com/items?itemName=huaQ-F.expand-region-vue)
+
+- 用模板右键创建 html、js、vue2、python文件  
+[Vue Py Template](https://marketplace.visualstudio.com/items?itemName=huaQ-F.vue2-html-python-template)
+
+- translation 中文翻译转换变量  
+[translation 中文翻译转换变量](https://marketplace.visualstudio.com/items?itemName=huaQ-F.translation2var)
